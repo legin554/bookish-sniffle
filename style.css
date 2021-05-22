@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap'100,200;300.400,500,600,700);
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap')100,200,300,400,500,600,700);
+
+font-family: 'Texturina', serif;
 
 /*--------------------------------------------Colors*/
 
@@ -33,7 +35,7 @@ header {
 }
 
 .logo {
-    background: url("https://github.com/legin554/bookish-sniffle/blob/master/image/Morning%20Inspection.jpg");
+    background: url("https://github.com/legin554/bookish-sniffle/blob/master/image/images/Morning%20Inspection.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +46,7 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Texturina", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
@@ -52,7 +54,7 @@ header {
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Texturina" , sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;

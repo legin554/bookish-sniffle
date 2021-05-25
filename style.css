@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap');
-font-family {
-    font: Texturina;
-        height: 200;
-        width: 200;
-        color: rgb(7, 7, 7);
-        
+@font-face {
+    font-family: 'Texturina';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/Texturina-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('Texturina-Regular'),
+      url(static/Texturina/Texturina-Regular.ttf-Regular.woff2) format('woff2'),
+      url(-Texturina/TexturinaRegular.woff) format('woff'),
+      url(https://Texturina/Texturina-Regular.ttf) format('truetype');
+  }
 
 
 /*--------------------------------------------Colors*/
@@ -47,7 +51,9 @@ tiled-background {
 /*--------------------------------------------Heading*/
 
 header {
-    margin: 0;
+    h1, .special {
+        color: black;
+        margin: 1;
 }
 
 .heading {

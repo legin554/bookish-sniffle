@@ -1,28 +1,21 @@
-@font-face {
-    font-family: 'Texturina';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://example.com/Texturina-Regular.eot); /* For IE6-8 */
-    src: local('Material Icons'),
-      local('Texturina-Regular'),
-      url(static/Texturina/Texturina-Regular.ttf-Regular.woff2) format('woff2'),
-      url(-Texturina/TexturinaRegular.woff) format('woff'),
-      url(https://Texturina/Texturina-Regular.ttf) format('truetype');
-  }
-
+font-family: 'Lobster', cursive;
 
 /*--------------------------------------------Colors*/
 
 tiled-background {
     background-image {
         url=(https://i.imgur.com/4AyyYLX.jpg);
-    background-size: 300px;
+    background-size: 500px;
     background-position-center: 300px;
     height: 300px;
     width: 300px;
     border: 2px solid;
     color: black;
   }
+
+  [id="h1, h2"] p {
+    color: rgb(59, 59, 63);
+  } 
     
 .uni-menu-color-home {
     background-color: #a4a7a7;
@@ -51,7 +44,7 @@ tiled-background {
 /*--------------------------------------------Heading*/
 
 header {
-    h1, .special {
+    h1 .special {
         color: black;
         margin: 1;
 }
@@ -79,7 +72,7 @@ header {
 }
 
 .name {
-    font-family: "Texturina", sans-serif;
+    font-family: font-family: 'Lobster', cursive; sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
@@ -87,7 +80,7 @@ header {
 }
 
 .title {
-    font-family: "Texturina" , sans-serif;
+    font-family: 'Lobster', cursive; sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
@@ -108,7 +101,7 @@ header {
     padding: 0;
 
     Events {
-        font: Texturina;
+        font-family: 'Lobster', cursive; sans-serif;
         height: 150%;
         background-color: #9b59b6
         

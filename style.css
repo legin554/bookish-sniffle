@@ -1,17 +1,20 @@
-Font\Deutsch.ttf
-
 #home {
     background: yellow;
 }
 
-#event {
+#event, h1 {
     background: lightblue;
 }
 
 #contact {
-    background: lightgreen;
+    background: (lightgreen)
+
 }
 
 #about4GD{
     background: cyan;
+}
+
+.event {
+
 }

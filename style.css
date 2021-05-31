@@ -1,8 +1,17 @@
-@fontface 
-table, th, td {
-    border: 1px solid black;
-    width: 100%;
+Font\Deutsch.ttf
+
+#home {
+    background: yellow;
 }
-      
-.home, h1, h2 {
-    background-color: gray;
+
+#event {
+    background: lightblue;
+}
+
+#contact {
+    background: lightgreen;
+}
+
+#about4GD{
+    background: cyan;
+}
